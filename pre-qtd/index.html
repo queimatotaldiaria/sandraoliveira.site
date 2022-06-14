@@ -1,34 +1,19 @@
 <!DOCTYPE html>
-<html><script id="allow-copy_script">(function agent() {
-    let unlock = false
-    document.addEventListener('allow_copy', (event) => {
-      unlock = event.detail.unlock
-    })
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tudo Certo!</title>
 
-    const copyEvents = [
-      'copy',
-      'cut',
-      'contextmenu',
-      'selectstart',
-      'mousedown',
-      'mouseup',
-      'mousemove',
-      'keydown',
-      'keypress',
-      'keyup',
-    ]
-    const rejectOtherHandlers = (e) => {
-      if (unlock) {
-        e.stopPropagation()
-        if (e.stopImmediatePropagation) e.stopImmediatePropagation()
-      }
-    }
-    copyEvents.forEach((evt) => {
-      document.documentElement.addEventListener(evt, rejectOtherHandlers, {
-        capture: true,
-      })
-    })
-  })()</script>
+  <meta name="description" content="">
+  <meta name="keywords" content="Médico Revela">
+  <meta itemprop="name" content="Médico Revela">
+  <meta itemprop="description" content="">
+  <meta name="og:title" content="">
+  <meta name="og:description" content="">
+  <meta name="og:site_name" content="">
+  <meta name="og:type" content="website">
   
   <script>
   !function(f,b,e,v,n,t,s)
@@ -46,9 +31,7 @@
   src="https://www.facebook.com/tr?id=975412919801540&ev=AddToCart&noscript=1"
 /></noscript>
 
-  <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="robots" content="noindex, nofollow">
 <title>Tudo Certo!</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="assets/bootstrap.min.css">
